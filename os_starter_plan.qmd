@@ -1,0 +1,248 @@
+---
+format:
+  sfu-typst: default
+knitr:
+  opts_chunk:
+    dev: svglite
+---
+
+```{=typst}
+#include "_extensions/sfu/typst-cover.typ"
+```
+
+{{< pagebreak >}}
+
+# Preamble
+
+This worksheet helps you identify one realistic starting point for open scholarship in your graduate program.  
+
+Openness looks different across research areas, methods, and partnerships, and it’s a process towards responsible research. Constant self-reflection is a very important practice in any research trajectory, and this worksheet invites you to do exactly that.  
+
+Each question aims at making you take responsibility for your choices, and to be kind to yourself and to others.  
+
+If you are not sure what to answer in any of the questions, please reach out to [open_sci@sfu.ca](mailto:open_sci@sfu.ca) and we can book a chat to discuss it.
+
+{{< pagebreak >}}
+
+# What is Open Scholarship?
+
+Open Scholarship is the practice of research in a responsible, democratic,
+inclusive and accessible way. It focuses on the decentralization of knowledge
+products, such as research papers, thesis chapters, datasets and analyses
+pipelines, as a way to contribute to society and collective decision-making.  
+
+Open products benefit society because they allow researchers to build on each
+other’s work, avoiding redundancy of efforts and unnecessary waste of resources.
+They also allow us to share the responsibility of making good decisions based on
+evidence.  
+
+The word “responsible” in the paragraph above is used to emphasize that openness
+does not default to free and frictionless access to anything and everything.
+There are things that need to have controlled, restricted access to protect
+people and other species. At SFU we believe in a people-centered practice of
+open scholarship, and so people’s privacy and sovereignty over their own data
+and knowledge always come first.  
+
+{{< pagebreak >}}
+
+# What counts as Open?
+
+During the research lifecycle, there are many sub-products that can be shared
+openly. You can pre-register your project idea, share your original data,
+deposit your code, figures or final reports (preprints, journal articles,
+posters, thesis, etc.).  
+
+When sharing your products, you need to attribute an open license to make them count as open. A
+license is a formalization of your authorization to use a product. Without a
+license, nobody can use or replicate your product, and so the goal of sharing a
+research output to benefit society is hindered. 
+
+It is strongly recommended that you choose carefully the repository where you are depositing your research products, with preference for those providing a persistent identifier. A persistent identifier prevents scooping and duplications, as it guarantees
+that your product is traceable to you and it makes your product findable.  
+
+
+{{< pagebreak >}}
+
+# 10 things a student can do to practice Open Scholarship
+
+We know that tipping our toes into open scholarship can feel scary, especially when we are just starting out in our research careers. Here are some ideas of things you can do to practice open scholarship, even if you are not ready to share most of your research products yet:
+
+1. Start a preprint review or reading club.  
+2. Start an open project workflow (e.g., via GitHub, OSF, Jupyter Notebooks).  
+3. Pre-register your research project.  
+4. Plan for data sharing and reuse (e.g., via a data management plan, consent forms, REB application).  
+5. Annotate and explain code with comments and documentation.  
+6. Dedicate time to make sure your data is well documented and well organized for reuse, complying with FAIR and Indigenous data principles.  
+7. Use transparent writing tools (e.g., Markdown, Quarto, Jupyter Notebooks) to share your research process and products.  
+8. Publish a preprint and invite feedback from your peers.
+9. Share your research products in an open repository (e.g., Summit, SFU Research Data Collection at FRDR, Zenodo, Dryad).  
+10. Share your research with non-academic audiences (e.g., via a blog post, policy brief, public presentation, or social media).
+
+```{r}
+#| echo: FALSE
+
+library(qrcode)
+
+qr_code("https://www.sfu.ca/research/researcher-resources/further-my-research/open-scholarship.html") |> 
+  generate_svg("assets/qr-code-os_sfu.svg", background = "transparent", show = FALSE)
+```
+
+---
+
+Scan the QR code below to learn more about each of these practices and find resources to help you get started with them:
+
+![](assets/qr-code-os_sfu.svg){fig-align="center" height="150px"}
+
+
+
+{{< pagebreak >}}
+
+# My Open Scholarship Starter Plan
+
+## A. My Research Context
+
+**Program / Area:**
+\
+
+
+`#line(length: 100%)`{=typst}
+
+**Type of research I expect to do (check any):**
+
+```{=typst}
+#show: checklist
+
+- [ ] Field-based (e.g., ecological surveys, field sampling)
+- [ ] Lab-based (e.g., environmental chemistry, materials)
+- [ ] Modelling / computational (e.g., climate, land-use, GIS)
+- [ ] Policy or planning (e.g., environmental governance, urban planning)
+- [ ] Community-engaged (e.g., participatory research, co-produced knowledge)
+- [ ] Other: 
+
+#line(length: 100%)
+```
+{{< pagebreak >}}
+
+**Things that might limit openness in my work (check any):**
+
+```{=typst}
+#show: checklist
+
+- [ ] Sensitive locations (e.g., species at risk, protected sites)
+- [ ] Human participants (e.g., interviews, surveys)
+- [ ] Indigenous or community-held knowledge
+- [ ] Government or NGO partnerships
+- [ ] Industry data or contracts
+- [ ] Confidential or proprietary information
+- [ ] I’m not sure yet
+```
+
+{{< pagebreak >}}
+
+## B. One thing I could make open in my research
+
+*Check at least one or write your own:*
+
+```{=typst}
+#show: checklist
+
+- [ ] A preprint or journal article (e.g., via Summit)
+- [ ] A dataset or dataset metadata (e.g., field observations, model outputs)
+- [ ] Code or analysis scripts (e.g., R, Python, GIS workflows)
+- [ ] A methods protocol (e.g., sampling, lab, or modelling workflow)
+- [ ] Conference poster or presentation slides
+- [ ] A public-facing output (e.g., policy brief, report, blog post)
+- [ ] Other: 
+#line(length: 100%)
+```
+
+
+**Why this feels realistic for my situation:**
+```{=typst}
+#line(length: 100%)
+#line(length: 100%)
+#line(length: 100%)
+#line(length: 100%)
+#line(length: 100%)
+```
+
+{{< pagebreak >}}
+
+## C. Timing & Support
+
+**When might this happen?**
+
+```{=typst}
+#show: checklist
+
+- [ ] This year
+- [ ] Later in my program
+- [ ] Near the end of my degree
+- [ ] Not sure yet
+```
+
+**Support I would likely need (check any):**
+
+```{=typst}
+#show: checklist
+- [ ] Conversation with my supervisor
+- [ ] SFU Library (open access publishing, repositories)
+- [ ] Research data management support
+- [ ] Ethics / REB guidance
+- [ ] Community or partner guidance
+- [ ] Peer advice
+- [ ] Other: 
+#line(length: 100%)
+```
+
+{{< pagebreak >}}
+
+## D. One thing I won’t make open (and that’s okay)
+*Ethical and practical limits to openness are valid and expected in our research. What is something in your research that should stay closed or restricted (e.g., exact locations of sensitive species, interview recordings, Indigenous knowledge):*
+```{=typst}
+#line(length: 100%)
+#line(length: 100%)
+#line(length: 100%)
+#line(length: 100%)
+#line(length: 100%)
+```
+
+**Why:**
+```{=typst}
+#line(length: 100%)
+#line(length: 100%)
+#line(length: 100%)
+#line(length: 100%)
+#line(length: 100%)
+```
+
+{{< pagebreak >}}
+
+## E. One question I still have
+\
+```{=typst}
+#line(length: 100%)
+#line(length: 100%)
+#line(length: 100%)
+#line(length: 100%)
+#line(length: 100%)
+```
+**Who could I ask to help me answer this question?**
+\
+```{=typst}
+#line(length: 100%)
+```
+
+**When might I ask them?**
+\
+```{=typst}
+#line(length: 100%)
+```
+
+
+{{< pagebreak >}}
+
+
+```{=typst}
+#include "_extensions/sfu/typst-back.typ"
+```
